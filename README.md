@@ -3,15 +3,15 @@
 
 
 ## Table of Contents
-* [Bike Sharing Assignment Intro](#Bike-Sharing-Assignment-Intro)
-* [Business Goal](#Business-Goal)
-* [Data Preparation](#Data-Preparation)
-* [Model Building](#Model-Building)
-* [Model Evaluation](#Model-Evaluation)
-* [Conclusions](#Conclusions)
-* [Technologies Used](#Technologies-Used)
-* [Contact](#Contact)
-* [Acknowledgements](#Acknowledgements)
+* [Bike Sharing Assignment Intro](#bike-sharing-assignment-intro)
+* [Business Goal](#business-goal)
+* [Data Preparation](#data-preparation)
+* [Model Building](#model-building)
+* [Model Evaluation](#model-evaluation)
+* [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 ## Bike Sharing Assignment Intro
