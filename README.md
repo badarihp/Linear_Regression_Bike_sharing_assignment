@@ -4,7 +4,7 @@
 
 ## Table of Contents
 * [Bike Sharing Assignment Intro](#bike-sharing-assignment-intro)
-* [Business Goal](#business-goal)
+* [Business Goals](#business-goals)
 * [Data Preparation](#data-preparation)
 * [Model Building](#model-building)
 * [Model Evaluation](#model-evaluation)
@@ -31,15 +31,17 @@ The dataset has three features called 'casual', 'registered', and 'cnt'. The fea
 ## Model Evaluation
 After you have built the model and analyzed the residuals and made predictions on the test set, please make sure you use these two lines of code to find out the R-squared score on the test set:
 
+```python
 from sklearn.metrics import r2_score
-r2_score(y_test, y_pred)
+r2_score(y_test, y_pred)```
+
 where y_test is the test data set for the target variable, and y_pred is the variable containing the predicted values of the target variable on the test set.
 
 
 ## Conclusions
 - The target variable is cnt, which is the number of bike rentals in a day.
 - There are more than three features that have a positive correlation with the target variable, which means they increase the demand for bike rentals.
-- The features that have the highest positive correlation with the target variable are atemp, yr, season_winter and mnth_Sep, with correlation values of 0.4632, 0.2350, 0.0412 and 0.0587 respectively."
+- The features that have the highest positive correlation with the target variable are atemp, yr, season_winter and mnth_Sep, with correlation values of 0.4632, 0.2350, 0.0412 and 0.0587 respectively.
 
 We can see that the equation for best fitted line is:
 ```cnt = 0.2620 + 0.2350 X yr - 0.1028 X holiday + 0.4632 X atemp - 0.1254 X windspeed -0.1167 X season_Spring + 0.0412 X season_Winter - 0.0657 X mnth_July + 0.0587 X mnth_Sep - 0.2872 X weathersit_Light rain_Light snow_Thunderstorm - 0.0837 X weathersit_Mist_cloudy -0.0484 X weekday_Sunday```
@@ -65,7 +67,7 @@ Created by [@badarihp] - feel free to contact me!
 
 ## Acknowledgements
 Give credit here.
-- https://www.geeksforgeeks.org/
 - https://seaborn.pydata.org/
 - https://pandas.pydata.org/
 - https://learn.upgrad.com/
+- https://github.com/ContentUpgrad/Linear-Regression/tree/main 
