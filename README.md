@@ -33,7 +33,8 @@ After you have built the model and analyzed the residuals and made predictions o
 
 ```python
 from sklearn.metrics import r2_score
-r2_score(y_test, y_pred)```
+r2_score(y_test, y_pred)
+```
 
 where y_test is the test data set for the target variable, and y_pred is the variable containing the predicted values of the target variable on the test set.
 
