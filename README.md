@@ -3,31 +3,30 @@
 
 
 ## Table of Contents
-* [Assignment Intro](#Bike-Sharing-Assignment-Intro)
+* [Bike Sharing Assignment Intro](#Bike-Sharing-Assignment-Intro)
 * [Business Goal](###Business-Goal)
 * [Data Preparation](###Data-Preparation)
 * [Model Building](###Model-Building)
 * [Model Evaluation](###Model-Evaluation)
 * [Conclusions](##Conclusion)
-* [Acknowledgements](#acknowledgements)
 * [Technologies Used](#Technologies-Used)
 
 <!-- You can include any other section that is pertinent to your problem -->
-# Bike-Sharing-Assignment-Intro
+# Bike Sharing Assignment Intro
 This is an assignment wherein a multiple linear regression model is expected to be built, to predict demand for bikes depending on the current trend.
 
 In this programming task, you will create a multiple linear regression model that can estimate the demand for shared bikes based on the current trend. Shared bikes are bikes that people can rent and use for a short time, either for free or for a fee. They can pick up a bike from a computerized station, where they enter their payment information and get a code to unlock the bike. They can then drop off the bike at another station that belongs to the same system.
 
-### Business-Goal:
+### Business Goal:
 The goal of this project is to build a multiple linear regression model that can predict the demand for shared bikes using the available explanatory variables. This will help the management to know how the demand changes with different factors. They can then adjust their business strategy to match the demand levels and satisfy the customers. Moreover, the model will be a useful tool for management to understand the demand patterns of a new market.
 
-###  Data-Preparation:
+###  Data Preparation:
 In the dataset, some of the features like 'weathersit' and 'season' have numbers 1, 2, 3, 4 that represent different labels (you can see what they mean in the data dictionary). These numbers may make you think that there is some order or ranking among them - but that is not true (Look at the data dictionary and think why). So, it is better to change these feature values into categorical text values before you build the model. Please check the data dictionary to understand all the independent variables better. You may also notice the feature 'yr' with two values 0 and 1 that show the years 2018 and 2019 respectively. You may feel like dropping this feature as it only has two values so it may not be useful for the model. But in fact, since these bike-sharing systems are becoming more popular, the demand for these bikes is growing every year which means that the feature 'yr' may be a good predictor. So be careful before you drop it.
 
-### Model-Building
+### Model Building
 The dataset has three features called 'casual', 'registered', and 'cnt'. The feature 'casual' shows the number of casual users who rented a bike. The feature 'registered' shows the number of registered users who booked a bike on a given day. The feature 'cnt' shows the total number of bike rentals, including both casual and registered. You should build the model using this 'cnt' as the target variable.
 
-### Model-Evaluation
+### Model Evaluation
 After you have built the model and analyzed the residuals and made predictions on the test set, please make sure you use these two lines of code to find out the R-squared score on the test set:
 
 from sklearn.metrics import r2_score
@@ -35,7 +34,7 @@ r2_score(y_test, y_pred)
 where y_test is the test data set for the target variable, and y_pred is the variable containing the predicted values of the target variable on the test set.
 
 
-## Conclusion
+## Conclusions
 - The target variable is cnt, which is the number of bike rentals in a day.
 - There are more than three features that have a positive correlation with the target variable, which means they increase the demand for bike rentals.
 - The features that have the highest positive correlation with the target variable are atemp, yr, season_winter and mnth_Sep, with correlation values of 0.4632, 0.2350, 0.0412 and 0.0587 respectively."
