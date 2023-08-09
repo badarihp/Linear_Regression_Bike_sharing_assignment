@@ -55,13 +55,13 @@ Comparision between Training and Testing dataset:
 | Adjusted R^2      |   0.832        | 0.7745        |
 
 ## Technologies-Used
-- python - version 3.8.5
-- pandas - version 1.1.3
-- numpy - version 1.19.2
-- matplotlib - version 3.3.2
-- seaborn - version 0.11.0
-- scikit-learn - version 1.0.2
-- statsmodels - version 0.12.0
+- python - version 3.10.9
+- pandas - version 1.5.3
+- numpy - version 1.23.5
+- matplotlib - version 3.7.0
+- scikit-learn - version 1.2.1
+- seaborn - version 0.12.2
+- statsmodels - version 0.13.5
 
 ## Contact
 Created by [@badarihp] - feel free to contact me!
