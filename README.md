@@ -52,7 +52,7 @@ Comparision between Training and Testing dataset:
 | **Item**          | **Train Data Set** | **Test Data Set** |
 | ----------------- | -------------- | ------------- |
 | R^2               |   0.836        | 0.8035        |
-| Adjusted R^2      |   0.832        | 0.7745        |
+| Adjusted R^2      |   0.832        | 0.7845        |
 
 ## Technologies-Used
 - python - version 3.10.9
