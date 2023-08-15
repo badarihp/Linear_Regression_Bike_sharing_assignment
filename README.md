@@ -1,6 +1,7 @@
 # Linear Regression Assignment
 > This assignment is a programming assignment wherein you have to build a multiple linear regression model for the prediction of demand for shared bikes. You will need to submit a Jupyter notebook for the same.
 
+TODO : Added file which uses standard scaler, work in progress
 
 ## Table of Contents
 * [Bike Sharing Assignment Intro](#bike-sharing-assignment-intro)
@@ -52,7 +53,7 @@ Comparision between Training and Testing dataset:
 | **Item**          | **Train Data Set** | **Test Data Set** |
 | ----------------- | -------------- | ------------- |
 | R^2               |   0.836        | 0.8035        |
-| Adjusted R^2      |   0.832        | 0.7745        |
+| Adjusted R^2      |   0.832        | 0.7845        |
 
 ## Technologies-Used
 - python - version 3.10.9
